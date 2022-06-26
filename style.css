@@ -101,7 +101,7 @@ article {
     cursor: pointer;
 }
 
-.spn:hover {
+span.spn:hover {
     color: Cyan: hsl(186, 34%, 60%);
 }
 
