@@ -89,7 +89,7 @@ li.span:hover {
     border-radius: 2px;
 }
 
-.spn {
+.spn:active {
     backgorund-color: cyan;
 }
 
