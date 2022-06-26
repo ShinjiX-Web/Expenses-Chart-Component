@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+<body>
+    <section>
+      <div class="details-container">
+        <h1>My balance</h1>
+        <p>$921.48</p>
+      </div>
+      <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd">
+        <circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
+    </section>
+    <article>
+      <h1>Spending - Last 7 days</h1>
+      <ul class="chart">
+        <li data-tooltip="$17.45" data-tooltip-position="top">
+          <span class="spn" style="height: 10px;" title="mon"></span>
+        </li>
+        <li data-tooltip="$34.91" data-tooltip-position="top">
+          <span class="spn" style="height: 70px;" title="tue"></span>
+        </li>
+        <li data-tooltip="$52.36" data-tooltip-position="top">
+          <span class="spn" style="height: 120px;" title="wed"></span>
+        </li>
+        <li data-tooltip="$31.07" data-tooltip-position="top">
+          <span class="spn" style="height: 45px;" title="thu"></span>
+        </li>
+        <li data-tooltip="$23.39" data-tooltip-position="top">
+          <span class="spn" style="height: 25px;" title="fri"></span>
+        </li>
+        <li data-tooltip="$43.28" data-tooltip-position="top">
+          <span class="spn" style="height:43.28%" title="sat"></span>
+        </li>
+        <li data-tooltip="$25.48" data-tooltip-position="top">
+          <span class="spn" style="height:35px;" title="sun"></span>
+        </li>
+      </ul>
+      <div class="br"></div>
+      <div class="sub-container">
+        <div class="contain-one">
+          <p>Total this month</p>
+          <h2>$478.33</h2>
+        </div>  
+        <div class="contain-two">
+          <h2 id="percent">+2.4%</h2>
+          <p>from last month</p>
+        </div>
+      </div>
+    </article>
+ <footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ShinjiX-Web">Nate Pañares</a>.
+  </div>
+</footer>
+</body>
+</html>
