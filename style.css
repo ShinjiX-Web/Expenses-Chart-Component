@@ -90,6 +90,10 @@ li.span:hover {
 }
 
 .spn {
+    backgorund-color: cyan;
+}
+
+.spn {
     margin: 0 0.2em;
     display: block;
     background: hsl(10, 79%, 65%);
