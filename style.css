@@ -65,6 +65,7 @@ article {
 
 .chart li {
     position: relative;
+    padding-right: 7px;
     display: table-cell;
     vertical-align: bottom;
     height: 200px;
@@ -80,18 +81,6 @@ article {
     border-radius: 2px;
 }
 
-.click {
-    background-color: hsl(186, 34%, 60%);
-}
-
-.click:hover {
-    background-color: hsl(186, 34%, 72%);
-}
-
-#percent.h2.contain-two {
-    margin-top: -20px;;
-}
-
 .spn {
     margin: 0 0.2em;
     display: block;
@@ -101,7 +90,7 @@ article {
     cursor: pointer;
 }
 
-span.spn:hover {
+.spn:hover {
     color: Cyan: hsl(186, 34%, 60%);
 }
 
