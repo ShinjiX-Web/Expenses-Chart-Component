@@ -101,6 +101,10 @@ article {
     cursor: pointer;
 }
 
+.spn:hover {
+    color:
+}
+
 .spn::before {
     position: absolute;
     left: 0;
